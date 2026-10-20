@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>몽글 공방 — 손끝으로 만드는 나만의 작은 친구</title>
+<meta name="description" content="천 위에 그린 모양 그대로 자르고 꿰매 솜을 채워, 세상에 하나뿐인 인형 친구를 만드는 바느질 공방 게임.">
+<meta property="og:title" content="몽글 공방">
+<meta property="og:description" content="손끝으로 그린 모양이 그대로 인형이 되는 바느질 공방 게임">
+<meta property="og:image" content="https://liveasfilm.github.io/mongle-workshop-site/feature.jpg">
+<link rel="icon" href="icon.svg">
+<style>
+  :root { --bg: #fff6f0; --ink: #5b3e4e; --muted: #8a6878; --card: #fffaf7; --line: #f0d9e2; --accent: #c2577f; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #251b21; --ink: #f6e9ef; --muted: #c9adbb; --card: #2f242b; --line: #47353f; --accent: #f29bbd; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.7 system-ui, -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+  main { max-width: 900px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; align-items: center; gap: 16px; }
+  header img { width: 72px; height: 72px; border-radius: 18px; }
+  h1 { margin: 0; font-size: 28px; } .sub { margin: 0; color: var(--muted); }
+  .hero { width: 100%; height: auto; border-radius: 20px; margin: 24px 0; border: 1px solid var(--line); }
+  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 16px 18px; }
+  .card h2 { margin: 0 0 6px; font-size: 17px; } .card p { margin: 0; color: var(--muted); font-size: 15px; }
+  .shots { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); margin: 24px 0; }
+  .shots img { width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--line); }
+  a { color: var(--accent); } footer { margin-top: 32px; color: var(--muted); font-size: 14px; }
+  footer a { margin-right: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <header><img src="icon.svg" alt=""><div><h1>몽글 공방</h1><p class="sub">손끝으로 만드는 나만의 작은 친구 · Mongle Workshop</p></div></header>
+  <img class="hero" src="feature.jpg" width="1024" height="500" alt="천을 가위로 재단하는 화면과 완성된 분홍 토끼 인형 화면">
+  <div class="grid">
+    <div class="card"><h2>그린 모양 그대로</h2><p>정해진 동물 틀 없이 큰 천 위에 손가락으로 윤곽을 그려요. 조금 비뚤어도 그 모양이 그대로 인형이 됩니다.</p></div>
+    <div class="card"><h2>자르고, 꿰매고, 채우기</h2><p>가위로 앞·뒤 천 두 장을 자르고, 한 땀씩 꿰맨 뒤 솜을 넣어요. 솜 양에 따라 납작하게도, 통통하게도 만들 수 있어요.</p></div>
+    <div class="card"><h2>사진 놀이터</h2><p>만든 친구들을 배경 위에 놓고 크기와 기울기를 바꾸며 사진을 찍어 앨범에 모아요.</p></div>
+    <div class="card"><h2>아이들의 부탁 · 인형 마켓</h2><p>아이 12명의 이야기와 매일 찾아오는 부탁을 들어주고, 다른 공방의 인형을 게임 코인으로 데려와요.</p></div>
+  </div>
+  <div class="shots">
+    <img src="screenshots/01-draw.jpg" width="720" height="1280" loading="lazy" alt="천 위에 윤곽 그리기">
+    <img src="screenshots/02-cut.jpg" width="720" height="1280" loading="lazy" alt="가위로 재단하기">
+    <img src="screenshots/03-sew.jpg" width="720" height="1280" loading="lazy" alt="바늘로 봉제하기">
+    <img src="screenshots/04-finished.jpg" width="720" height="1280" loading="lazy" alt="완성한 토끼 인형">
+    <img src="screenshots/05-photo.jpg" width="720" height="1280" loading="lazy" alt="사진 놀이터">
+    <img src="screenshots/06-missions.jpg" width="720" height="1280" loading="lazy" alt="아이들의 부탁">
+  </div>
+  <div class="card" lang="en"><h2>Mongle Workshop</h2><p>Draw any shape on a big sheet of fabric, cut the front and back, stitch them together and stuff them — the shape you drew becomes your very own plush friend. The game is in Korean.</p></div>
+  <footer>
+    <a href="https://mongle-market-liveasfilm.fly.dev/privacy">개인정보처리방침 · Privacy</a>
+    <a href="https://mongle-market-liveasfilm.fly.dev/support">지원 · Support</a>
+    <a href="mailto:liveasfilm@gmail.com">liveasfilm@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
